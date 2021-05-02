@@ -1,0 +1,11 @@
+celsius = int(input())
+
+def conv(c):
+
+    
+    x = c * (9/5)
+    y = (x + 32)
+    return y
+
+fahrenheit = conv(celsius)
+print(fahrenheit)
